@@ -1,5 +1,7 @@
 # Author: Arnav Madderla, Date: 1-18-24, Purpose: Basics of R Training
 
+# Go to "Stack Overflow" to search up fxns
+
 # Calculate Average of 6 numbers
 # Set A = [1, 2, 3, 4, 5, 6]
 # Average = (1+2+3+4+5+6)/6
@@ -26,7 +28,7 @@
 # Setting the working directory
 # Terminal: ls, cd Desktop, ls, pwd
 # setwd("/Users/shashimadderla/Desktop")
-# data <- read.csv("mtcar.csv", header = TRUE)
+# data <- read.csv("mtcars.csv", header = TRUE)
 
 
 # Author: Arnav Madderla, Date: 1-30-24, Purpose: Basics of R Training
@@ -73,3 +75,16 @@
 	sample estimates:
 	     cor 
 	0.418684 
+# Homework: Read about "T-test"
+
+
+# Author: Arnav Madderla, Date: 2-22-24, Purpose: Basics of R Training
+
+# What is an export in R, and how to export data in CSV file
+# dim(data) = how many rows, how many columns (dimension)
+# write.csv(data, "export.csv")
+# write.table(data, "export.txt")
+
+# Visualization in R
+Barplots, Scatterplots, Volcano Plots, Venn Diagrams, Pie Charts, Density Plots, Line Plots, etc....
+barplot(data$cyl, data$gear, xlab="cylinders", ylab="gear", main = "Number of Gears per Cylinder", cex.lab = 0.5)
